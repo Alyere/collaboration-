@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Git  Básico</title>
+</head>
+<body>
+
+<h1>Git: Clone, Commit, Push (Explicação Super Simples)</h1>
+
+<p>Vamos imaginar que você tem um arquivo chamado <code>pagina.html</code>.</p>
+
+<hr>
+
+<h3>1. Comando: <code>git clone</code></h3>
+<p><strong>O que faz:</strong> Copia um projeto (com a <code>pagina.html</code> dentro) da internet para o seu computador.</p>
+<p><strong>Exemplo de como usar:</strong></p>
+<pre>
+git clone URL_DO_PROJETO_NA_INTERNET_AQUI
+</pre>
+<p><em>Agora, a <code>pagina.html</code> está no seu computador.</em></p>
+
+<hr>
+
+<h3>2. Modificar a <code>pagina.html</code></h3>
+<p>Você abre a <code>pagina.html</code> no seu computador e muda alguma coisa. Por exemplo, adiciona uma linha nova:</p>
+<pre>
+&lt;p&gt;Linha nova adicionada por mim.&lt;/p&gt;
+</pre>
+
+<hr>
+
+<h3>3. Comando: <code>git commit</code></h3>
+<p><strong>O que faz:</strong> Salva as suas mudanças (a linha nova na <code>pagina.html</code>) no seu computador.</p>
+<p><strong>Exemplo de como usar (são dois passos):</strong></p>
+<p>Primeiro, prepare o arquivo para salvar:</p>
+<pre>
+git add pagina.html
+</pre>
+<p>Depois, salve com uma mensagem curta explicando o que você fez:</p>
+<pre>
+git commit -m "Adicionei uma linha nova na pagina"
+</pre>
+<p><em>Agora, sua mudança está registrada no seu computador.</em></p>
+
+<hr>
+
+<h3>4. Comando: <code>git push</code></h3>
+<p><strong>O que faz:</strong> Envia as mudanças que você salvou no seu computador de volta para o projeto na internet.</p>
+<p><strong>Exemplo de como usar:</strong></p>
+<pre>
+git push origin main
+</pre>
+<p><em>Agora, a <code>pagina.html</code> atualizada está na internet para outros verem.</em></p>
+
+<hr>
+
+<p>terá mais coisas, bjss.</p>
+
+</body>
+</html>
